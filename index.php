@@ -15,7 +15,7 @@
 
 
 
-    $form = new Form($_POST);
+    $form = new \PDO\Form($_POST);
 
     echo '<br/';
     echo $form->create('$_POST');
